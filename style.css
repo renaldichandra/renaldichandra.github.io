@@ -20,6 +20,32 @@ body {
     color: #FF00D6;
 }
 
+
+/*  B L O B */
+.blob{
+    background-image: url(https://cdn.discordapp.com/attachments/823588285812047872/1237033614462423040/0c61a6b8-6c87-1_1.jpg?ex=663a2cd4&is=6638db54&hm=56334ad7a913bf15b4af47fdb008c80093734cd763a04d416f8b5904878a390b&);
+    width: 240px;
+    height: 240px;
+    background-size:contain;
+    -webkit-background-position: center;
+    background-position: center center;
+    margin: 20px;
+    margin-left: 40%;
+    box-shadow: 0 5px 5px 5px rgba(255, 255, 255, 0.1);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+
+@keyframes animate {
+    0%, 100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+}
+
+
 /*  T E X T  */
 
 h1 {
@@ -273,6 +299,28 @@ footer {
     html {
         font-size: 16px;
     }
+
+    .blob{
+        width: 240px;
+        height: 240px;
+        margin: 20px;
+        margin-left: 33%;
+    }
+
+    .navbar-section>a {
+        margin-left: 3vw;
+        text-decoration: none;
+        color: White;
+        font-size: 1rem;
+        font-weight: 300;
+        transition: all 0.3s ease;
+    }
+
+    .logo>img {
+        height: 3vh;
+        width: 100%;
+    }
+    
     .porto-card>a>img {
         width: 40vw;
         border-radius: 3vw;
@@ -318,6 +366,28 @@ footer {
     html {
         font-size: 15px;
     }
+
+    .blob{
+        width: 240px;
+        height: 240px;
+        margin: 20px;
+        margin-left: 33%;
+    }
+
+    .navbar-section>a {
+        margin-left: 3vw;
+        text-decoration: none;
+        color: White;
+        font-size: 1rem;
+        font-weight: 300;
+        transition: all 0.3s ease;
+    }
+
+    .logo>img {
+        height: 3vh;
+        width: 100%;
+    } 
+    
     .porto-card>a>img {
         width: 50vw;
         border-radius: 3vw;
@@ -364,6 +434,27 @@ footer {
     html {
         font-size: 12px;
     }
+
+    .blob{
+        width: 180px;
+        height: 180px;
+        margin: 20px;
+        margin-left: 25%;
+    }
+
+    .navbar-section>a {
+        margin-left: 5px;
+        text-decoration: none;
+        color: White;
+        font-size: 1vw;
+        transition: all 0.3s ease;
+    }
+
+    .logo>img {
+        height:2vh;
+        width: 100%;
+    }
+
     .porto-card>a>img {
         width: 60vw;
         border-radius: 3vw;
