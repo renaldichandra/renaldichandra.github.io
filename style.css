@@ -446,12 +446,12 @@ footer {
         margin-left: 5px;
         text-decoration: none;
         color: White;
-        font-size: 1vw;
+        font-size: 3vw;
         transition: all 0.3s ease;
     }
 
     .logo>img {
-        height:2vh;
+        height:3vh;
         width: 100%;
     }
 
