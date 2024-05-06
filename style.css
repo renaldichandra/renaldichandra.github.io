@@ -446,12 +446,86 @@ footer {
         margin-left: 5px;
         text-decoration: none;
         color: White;
-        font-size: 3vw;
+        font-size: 1vw;
         transition: all 0.3s ease;
     }
 
     .logo>img {
-        height:3vh;
+        height:2vh;
+        width: 100%;
+    }
+
+    .porto-card>a>img {
+        width: 60vw;
+        border-radius: 3vw;
+    }
+    .porto-skill,
+    .porto-detail>p,
+    .porto-detail>h4 {
+        width: 60vw;
+    }
+    .porto-card {
+        margin-right: 6vw;
+    }
+    #home>.box {
+        margin: 0 0;
+    }
+    .box {
+        border-radius: 4vw;
+    }
+    #experiences>.row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* 
+    #contact-me {
+      background-image: none;
+    } */
+    .dots-left,
+    .dots-right {
+        height: 90vh;
+    }
+    h1 {
+        font-size: 2.4rem;
+    }
+    .photo-profile {
+        height: 15vh;
+    }
+    .porto-card>a>img {
+        filter: none;
+    }
+}
+
+/* Mobile screen  */
+
+@media only screen and (max-device-width: 381px) {
+    html {
+        font-size: 12px;
+    }
+    
+    header {
+        padding: 3.2vh 2.3vw;
+        background: linear-gradient(180deg, #000000 -5.47%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    .blob{
+        width: 180px;
+        height: 180px;
+        margin: 20px;
+        margin-left: 20%;
+    }
+
+    .navbar-section>a {
+        margin-left: 3px;
+        text-decoration: none;
+        color: White;
+        font-size: 1px;
+        font-weight: 300;
+        transition: all 0.3s ease;
+    }
+
+    .logo>img {
+        height: 3vh;
         width: 100%;
     }
 
